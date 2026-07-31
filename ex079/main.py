@@ -17,8 +17,3 @@ while True:
 print("-="*15)
 print(f"Os valores digitados foram {sorted(valores)}")
 print("Fim do pragrama")
-        
-
-
-        
-

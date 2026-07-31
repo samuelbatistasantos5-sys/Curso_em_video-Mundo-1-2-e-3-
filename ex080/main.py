@@ -17,7 +17,4 @@ for c in range(0, 5):
             numeros.append(num)
             print("Adicionando ao final da lista...")
 
-
-
-
 print(numeros)

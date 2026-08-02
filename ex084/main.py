@@ -4,7 +4,7 @@ pessoas = 0
 while True:
     print(f'{"Cadrastro de pessoa":-^40}')
     nome = input("Digite o nome da pessoa: ")
-    peso = int(input("Digite o peso da pessoa: "))
+    peso = float(input("Digite o peso da pessoa: "))
     dados.append(nome)
     dados.append(peso)
     listadepessoas.append(dados[:])

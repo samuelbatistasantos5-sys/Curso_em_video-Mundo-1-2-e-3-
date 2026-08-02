@@ -21,7 +21,7 @@ for pos, aluno in enumerate(alunos):
 
 while True:
     indice = int(input("Deseja ver as notas de que aluno(Digite a posição): "))
-    if indice <= len(alunos):
+    if indice <= len(alunos)-1:
         print(f"Notas do {alunos[indice][0]}: {alunos[indice][1]} e {alunos[indice][2]}")
     else:
         print("Posição incorreta")
